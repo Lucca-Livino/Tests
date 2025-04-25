@@ -1,0 +1,26 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Repositório dedicado as atividades de Testes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test":"node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch":"node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
+    "test:coverage":"node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucca-Livino/Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucca-Livino/Tests/issues"
+  },
+  "homepage": "https://github.com/Lucca-Livino/Tests#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
